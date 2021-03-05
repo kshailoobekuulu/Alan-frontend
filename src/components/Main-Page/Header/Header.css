@@ -1,0 +1,116 @@
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+.logo {
+    position: absolute;
+    width: 232px;
+    height: 49px;
+    left: calc(50% - 232px/2 - 426px);
+    top: 62px;
+
+    background: url(../../../assets/images/brand-232x49.png);
+}
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 242px;
+    height: 58px;
+    left: 885px;
+    top: 59px;
+
+}
+.location_inside {
+    position: static;
+    width: 212px;
+    height: 41px;
+    left: 30px;
+    top: 8.5px;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+.logo_loc {
+    width: 20px;
+    height: 26px;
+    position: static;
+    left: 0%;
+    right: 91.74%;
+    top: 28.45%;
+    bottom: 28.45%;
+    background: url(../../../assets/images/location.png);
+
+}
+.logo_contact {
+    width: 20px;
+    height: 26px;
+    position: static;
+    left: 0%;
+    right: 91.74%;
+    top: 28.45%;
+    bottom: 28.45%;
+    background: url(../../../assets/images/phone.png);
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 182px;
+    height: 37px;
+    left: 1127px;
+    top: 66px;
+}
+.text {
+    position: static;
+    width: 129px;
+    height: 37px;
+    left: 44px;
+    top: 0px;
+
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: absolute;
+    width: 136px;
+    height: 44px;
+    left: 1380px;
+    top: 66px;
+}
+.icons {
+    position: static;
+    width: 25px;
+    height: 25px;
+    left: 20.5px;
+    top: 9.5px;
+}

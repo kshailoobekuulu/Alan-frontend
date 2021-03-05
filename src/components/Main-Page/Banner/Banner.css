@@ -1,0 +1,72 @@
+.banner {
+    z-index: -1;
+    position: absolute;
+    width: 1920px;
+    height: 604px;
+    left: 0px;
+    top: 173px;
+    background: url(../../../assets/images/sushi.png);
+
+}
+.banner_main_text {
+    position: absolute;
+    width: 890px;
+    height: 92px;
+    left: 515px;
+    top: 431px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 92px;
+
+    color: #FFFFFF;
+}
+.banner_kind_of_sushi {
+    position: absolute;
+    width: 212px;
+    height: 35px;
+    left: 844px;
+    top: 402px;
+
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.banner_info {
+    position: absolute;
+    width: 719px;
+    height: 36px;
+    left: 590px;
+    top: 523px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.banner_button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 56px;
+
+    position: absolute;
+    width: 270px;
+    height: 54px;
+    left: 815px;
+    top: 604px;
+
+    background: #BCD339;
+    border-radius: 35px;
+}

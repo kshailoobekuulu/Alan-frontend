@@ -1,0 +1,85 @@
+.menu {
+    position: absolute;
+    width: 1170px;
+    height: 65px;
+    left: 365px;
+    top: 140px;
+
+    background: #F16121;
+    border-radius: 35px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+
+    position: absolute;
+    width: 397px;
+    height: 36px;
+    left: 418px;
+    top: 155px;
+}
+.nav_item_home {
+    position: static;
+    width: 52px;
+    height: 16px;
+    left: 31.5px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: black;
+}
+.nav_item_menu {
+    position: static;
+    width: 44px;
+    height: 16px;
+    left: 123.5px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: black;
+}
+.nav_item_contact {
+    position: static;
+    width: 76px;
+    height: 16px;
+    left: 207.5px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: black;
+
+}
+.nav_item_about {
+    position: static;
+    width: 42px;
+    height: 16px;
+    left: 323.5px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: black;
+
+}
