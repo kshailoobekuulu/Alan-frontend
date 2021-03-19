@@ -4,20 +4,19 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div className='banner'>
-            <div className='banner_kind_of_sushi'>
+            <h3>
                 Множество видов
-            </div>
+            </h3>
 
-            <div className='banner_main_text'>
+            <h2>
                 САМЫХ ВКУСНЫХ СУШИ
-            </div>
-            <div className='banner_info'>
+            </h2>
+            <p>
                 В нашем меню вы найдете множество видов суши.
                 Мы стараемся всегда готовить быстро и вкусно.
                     Самые лучшие суши в городе Токтогул
-            </div>
-            <button className='banner_button'>Заказать Онлайн</button>
-
+            </p>
+            <button><p className="button-text">Заказать Онлайн</p></button>
         </div>
     )
 }

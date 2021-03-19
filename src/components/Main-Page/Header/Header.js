@@ -1,41 +1,50 @@
 import React from 'react';
 import './Header.css';
+import brand from '../../../assets/images/brand-232x49.png';
+import location from '../../../assets/images/location.png';
+import whatsapp from '../../../assets/images/cib_whatsapp.png';
+import insta from '../../../assets/images/instagram.png';
+import facebook from '../../../assets/images/facebook.png';
+
+import contact from '../../../assets/images/phone.png';
+
 
 const Header = () => {
     return (
-        <div className='header'>
-            <div className='logo'>
-            </div>
-            <div className='location'>
-                <div className='logo_loc'>
-
+        <header className='header'>
+            <div className='logo_and_contacts_container container'>
+                <div className="logo">
+                    <a href="/">
+                        <img src={brand} alt="brand"/>
+                    </a>
                 </div>
-                <p className='location_inside'>
-                    Токтогул
-                    Бекмамат Осмонов 48
-                </p>
 
-            </div>
-            <div className='contacts'>
-                <div className='logo_contact'>
-                    <div/>
-                    <div className='text'>
-                        0700-482-721
-                        Пн-Вс: 8:00-24:00
+                <div className='location'>
+                    <div className='logo_loc'>
+                        <img src={location} alt="location"/>
 
+                    </div>
+                    <div className='location_inside'>
+                        <address>Токтогул <br/>Бекмамат Осмонов 48</address>
                     </div>
 
                 </div>
-                <div className='social_media'>
-                    <img src='icons/facebook.png' className='icons'/>
-                    <img src='icons/instagram.png.png' className='icons'/>
-                    <img src='icons/cib_whatsapp.png.png' className='icons'/>
-
+                <div className='contacts'>
+                    <div className='logo_contact'>
+                        <img src={contact} alt="contact"/>
+                        </div>
+                        <div className='contact_text'>
+                            <a href="tel:0700482721">0700-482-721</a>
+                            <p>Пн-Вс:8:00-24:00</p>
+                        </div>
                 </div>
-
-
-            </div>
-        </div>
-            )
-            }
-            export default Header;
+                    <dev className='social_media'>
+                       <a href="#"><img src={facebook} alt='facebook' className='icons'/></a>
+                        <a  href="#"> <img src={insta} alt='insta' className='icons'/></a>
+                        <a  href="#"> <img src={whatsapp} alt='whats' className='icons'/></a>
+                     </dev>
+                </div>
+        </header>
+    )
+}
+export default Header;

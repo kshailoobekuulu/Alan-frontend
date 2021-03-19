@@ -1,41 +1,41 @@
 .header {
     position: absolute;
-    width: 1920px;
+    display: flex;
+    width: 100%;
     height: 172px;
-    left: 0px;
-    top: 0px;
+    background: #ffffff;
+    margin: 0;
+    top: 0;
 
-    background: #FFFFFF;
 }
-.logo {
-    position: absolute;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_and_contacts_container {
+    position: relative;
+    width: 1170px;
+    margin: 28px 375px 36px 375px;
+    height: 108px;
+    background: #FFFFFF;
+
+}
+.logo_and_contacts_container .logo {
     width: 232px;
     height: 49px;
-    left: calc(50% - 232px/2 - 426px);
-    top: 62px;
-
-    background: url(../../../assets/images/brand-232x49.png);
+    margin-left: 43px;
 }
 .location {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
+    margin-left: 235px;
     width: 242px;
-    height: 58px;
-    left: 885px;
-    top: 59px;
+    height: 41px;
+    margin-top: 31px;
+    margin-bottom: 36px;
 
 }
 .location_inside {
-    position: static;
-    width: 212px;
-    height: 41px;
-    left: 30px;
-    top: 8.5px;
     font-family: Lobster;
     font-style: normal;
     font-weight: normal;
@@ -46,71 +46,48 @@
 }
 .logo_loc {
     width: 20px;
-    height: 26px;
-    position: static;
-    left: 0%;
-    right: 91.74%;
-    top: 28.45%;
-    bottom: 28.45%;
-    background: url(../../../assets/images/location.png);
-
+    height: 25px;
+    margin-right: 10px;
 }
-.logo_contact {
-    width: 20px;
-    height: 26px;
-    position: static;
-    left: 0%;
-    right: 91.74%;
-    top: 28.45%;
-    bottom: 28.45%;
-    background: url(../../../assets/images/phone.png);
 
-}
 
 .contacts {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 182px;
+    width: 200px;
     height: 37px;
-    left: 1127px;
-    top: 66px;
+    margin-left: 0px;
+    margin-top: 38px;
+    margin-bottom: 33px;
+
 }
-.text {
-    position: static;
-    width: 129px;
-    height: 37px;
-    left: 44px;
-    top: 0px;
 
+.contact_text {
+    width:  129px;
     font-family: Lobster;
     font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
 }
-.social_media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-
-    position: absolute;
-    width: 136px;
-    height: 44px;
-    left: 1380px;
-    top: 66px;
-}
-.icons {
-    position: static;
+.logo_contact {
     width: 25px;
     height: 25px;
-    left: 20.5px;
-    top: 9.5px;
+    margin-right: 10px;
+
+}
+.social_media {
+    display: flex;
+    width: 136px;
+    height: 44px;
+    margin-top: 38px;
+    margin-bottom: 26px;
+
+}
+.icons {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.icons:last-child {
+    margin-right: 0px;
 }
