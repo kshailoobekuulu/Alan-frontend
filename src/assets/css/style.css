@@ -11,18 +11,20 @@ body, optgroup {
 }
 body, code, dl, dd, form, pre {
     margin: 0;
+
 }
-a:link {
-    color: #009;
-}
+/*a:link {*/
+/*    color: #009;*/
+/*}*/
+
+/*a:visited {*/
+/*    color: #505;*/
+/*}*/
+/*a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
 a:link, a:visited, ins {
     text-decoration: none;
-}
-a:visited {
-    color: #505;
-}
-a:hover {
-    text-decoration: underline;
 }
 a:link img, a:visited img, object, fieldset, abbr, acronym {
     border: none;
@@ -122,4 +124,16 @@ html {
 }
 *, *::before, *::after {
     box-sizing: inherit;
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 375px) {
+
 }

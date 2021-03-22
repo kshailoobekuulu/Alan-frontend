@@ -8,15 +8,17 @@
     top: 0;
 
 }
-.container {
+.container-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .logo_and_contacts_container {
     position: relative;
-    width: 1170px;
-    margin: 28px 375px 36px 375px;
+    width: 85%;
+    margin: 28px auto;
+    /*margin: 28px 375px 36px 375px;*/
     height: 108px;
     background: #FFFFFF;
 
@@ -69,6 +71,15 @@
     line-height: 20px;
     color: #000000;
 }
+.contact-text-tel {
+    font-family: Lobster;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+
+}
 .logo_contact {
     width: 25px;
     height: 25px;
@@ -83,11 +94,14 @@
     margin-bottom: 26px;
 
 }
-.icons {
+.icon {
     width: 25px;
     height: 25px;
-    margin-right: 10px;
+    margin-right:0px;
+
 }
-.icons:last-child {
-    margin-right: 0px;
+.inst {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
 }

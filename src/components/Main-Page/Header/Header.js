@@ -12,7 +12,7 @@ import contact from '../../../assets/images/phone.png';
 const Header = () => {
     return (
         <header className='header'>
-            <div className='logo_and_contacts_container container'>
+            <div className='logo_and_contacts_container container-header'>
                 <div className="logo">
                     <a href="/">
                         <img src={brand} alt="brand"/>
@@ -34,15 +34,16 @@ const Header = () => {
                         <img src={contact} alt="contact"/>
                         </div>
                         <div className='contact_text'>
-                            <a href="tel:0700482721">0700-482-721</a>
+                            <a href="tel:0700482721" className='contact-text-tel'>0700-482-721</a>
                             <p>Пн-Вс:8:00-24:00</p>
                         </div>
                 </div>
-                    <dev className='social_media'>
-                       <a href="#"><img src={facebook} alt='facebook' className='icons'/></a>
-                        <a  href="#"> <img src={insta} alt='insta' className='icons'/></a>
-                        <a  href="#"> <img src={whatsapp} alt='whats' className='icons'/></a>
-                     </dev>
+                    <div className='social_media'>
+                        <a  href="#"> <img src={insta} alt='insta' className='inst'/></a>
+                        <a  href="#"> <img src={whatsapp} alt='whats' className=' icon '/></a>
+                        <a  href="#"><img src={facebook} alt='facebook' className='icon'/></a>
+
+                    </div>
                 </div>
         </header>
     )

@@ -1,0 +1,39 @@
+.welcome {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+.welcome-content {
+    width: 60%;
+    display: flex;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+
+
+}
+
+.welcome h2 {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 74px;
+    text-align: center;
+    color: #555555;
+}
+.welcome p {
+    font-family: Crimson Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}

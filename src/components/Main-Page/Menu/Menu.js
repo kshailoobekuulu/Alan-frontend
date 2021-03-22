@@ -5,10 +5,10 @@ const Menu = () => {
     return (
     <div className='menu'>
         <ul className= 'navigation'>
-            <li className='nav_item_home'><a href = "#" >Домой</a></li>
-            <li className='nav_item_menu'><a href="#">Меню</a></li>
-            <li className='nav_item_contact'> <a href="#">Контакты</a></li>
-            <li className='nav_item_about'><a href="#"> O нас</a> </li>
+            <li className='nav_item_home'><a href = "#" className ='nav_item_link' >Домой</a></li>
+            <li className='nav_item_menu'><a href="#" className ='nav_item_link'>Меню</a></li>
+            <li className='nav_item_contact'> <a href="#" className ='nav_item_link'>Контакты</a></li>
+            <li className='nav_item_about'><a href="#" className ='nav_item_link'> O нас</a> </li>
         </ul>
         <div className='cart-container'>
             <a href="#" className='cart'>

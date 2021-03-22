@@ -3,7 +3,8 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className='banner'>
+        <div className='banner '>
+            <div className='container'>
             <h3>
                 Множество видов
             </h3>
@@ -16,7 +17,8 @@ const Banner = () => {
                 Мы стараемся всегда готовить быстро и вкусно.
                     Самые лучшие суши в городе Токтогул
             </p>
-            <button><p className="button-text">Заказать Онлайн</p></button>
+            <button className="button-text">Заказать Онлайн</button>
+            </div>
         </div>
     )
 }
