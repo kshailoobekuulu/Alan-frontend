@@ -1,25 +1,26 @@
 import React from "react";
-import Header from "./components/Main-Page/Header/Header";
-import Menu from "./components/Main-Page/Menu/Menu";
-import Banner from "./components/Main-Page/Banner/Banner";
+import {Route, BrowserRouter} from 'react-router-dom';
+import Header from "./components/Header/Header";
+import Menu from "./components/Menu/Menu";
 import './App.css';
-import Footer from "./components/Main-Page/Footer/Footer";
-import Welcome from "./components/Main-Page/Welcome/Welcome";
-import MainSlider from "./components/Main-Page/Slider/Slider";
-import OurMenu from "./components/Main-Page/OurMenu/OurMenu";
+import Footer from "./components/Footer/Footer";
+import MainPage from "./components/MainPage/Main-Page";
+import Cart from "./components/Cart/Cart";
+import MenuPage from "./components/Menu-Page/Menu-Page";
 
 function App() {
-  return (
-      <div>
-        <Header/>
-        <Menu/>
-        <Banner/>
-        <Welcome/>
-        <MainSlider/>
-        <OurMenu/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-        <Footer/>
-      </div>
-  );
+    return (
+        <BrowserRouter>
+            <div>
+                <Header/>
+                <Menu/>
+                <Route exact path='/' render = { () => <MainPage/>}/>
+                <Route exact path='/menu' render = { () => <MenuPage/>}/>
+                <Route exact path='/cart' render = { () => <Cart/>}/>
+                <Footer/>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

@@ -21,9 +21,7 @@
     width: 45px;
     height: 25px;
     margin: 20px 35px;
-
-
-
+    color: #FFFFFF;
 }
 .cart {
     width: 25px;
@@ -39,7 +37,6 @@
     line-height: 16px;
     padding-top: 5px;
 
-    color: #FFFFFF;
 
 }
 .nav_item_link {

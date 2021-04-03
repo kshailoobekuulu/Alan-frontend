@@ -57,6 +57,8 @@
     height: 54px;
     background: #BCD339;
     border-radius: 35px;
+    border-color: #BCD339;
+
 }
 .button-text {
     font-family: Roboto Slab;

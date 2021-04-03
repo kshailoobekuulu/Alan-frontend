@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
-import brand from '../../../assets/images/brand-232x49.png';
-import location from '../../../assets/images/location.png';
-import whatsapp from '../../../assets/images/cib_whatsapp.png';
-import insta from '../../../assets/images/instagram.png';
-import facebook from '../../../assets/images/facebook.png';
+import brand from '../../assets/images/brand-232x49.png';
+import location from '../../assets/images/location.png';
+import whatsapp from '../../assets/images/cib_whatsapp.png';
+import insta from '../../assets/images/instagram.png';
+import facebook from '../../assets/images/facebook.png';
 
-import contact from '../../../assets/images/phone.png';
+import contact from '../../assets/images/phone.png';
 
 
 const Header = () => {
