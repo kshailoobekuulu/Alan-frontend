@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1616952638679" duration="2724000" />
       <workItem from="1616999361957" duration="305000" />
       <workItem from="1617258928708" duration="32438000" />
-      <workItem from="1617597197648" duration="11151000" />
+      <workItem from="1617597197648" duration="11458000" />
     </task>
     <servers />
   </component>
