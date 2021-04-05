@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef2405b-576a-4ebb-b8cb-f86a5cf0c0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/Cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainPage/Main-Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu-Page/Menu-Page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu-Page/Menu-Page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/OurMenu/OurMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/OurMenu/OurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Slider/Slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Welcome/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Welcome/Welcome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Welcome/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Welcome/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +73,8 @@
       <workItem from="1616816291431" duration="8227000" />
       <workItem from="1616952638679" duration="2724000" />
       <workItem from="1616999361957" duration="305000" />
-      <workItem from="1617258928708" duration="31534000" />
+      <workItem from="1617258928708" duration="32438000" />
+      <workItem from="1617597197648" duration="11151000" />
     </task>
     <servers />
   </component>
@@ -104,23 +92,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Cart/Cart.js</url>
-          <line>15</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Cart/Cart.js</url>
-          <line>31</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

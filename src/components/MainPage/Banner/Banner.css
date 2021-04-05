@@ -50,17 +50,25 @@
     text-align: center;
 
 }
-.banner button {
-    /*position: absolute;*/
+/*.banner button {*/
+/*    !*position: absolute;*!*/
+
+/*}*/
+.button-text {
     margin: 15px 56px;
     width: 270px;
     height: 54px;
-    background: #BCD339;
+    background-color: #BCD339;
     border-radius: 35px;
     border-color: #BCD339;
 
+
 }
-.button-text {
+.button-text:hover {
+    background-color: grey;
+    border-color: chocolate;
+}
+.button-text span {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
@@ -68,4 +76,5 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+
 }

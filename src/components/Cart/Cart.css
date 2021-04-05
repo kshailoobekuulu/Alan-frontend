@@ -121,10 +121,17 @@
 
 }
 .cart-button-b:hover {
-    background-color: yellow;
+    background-color: chocolate;
+    border-color: chocolate;
 
 }
 .cart-icon {
     width: 25px;
     height: 25px;
 }
+.increase-decrease-button {
+    cursor: pointer;
+    border: none;
+    background: white;
+}
+

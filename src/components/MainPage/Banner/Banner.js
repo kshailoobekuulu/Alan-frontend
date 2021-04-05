@@ -17,7 +17,9 @@ const Banner = () => {
                 Мы стараемся всегда готовить быстро и вкусно.
                     Самые лучшие суши в городе Токтогул
             </p>
-            <button className="button-text">Заказать Онлайн</button>
+            <button className="button-text">
+                <span>Заказать Онлайн</span>
+            </button>
             </div>
         </div>
     )
