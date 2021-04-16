@@ -24,7 +24,7 @@ const Header = () => {
                         <img src={location} alt="location"/>
 
                     </div>
-                    <div className='location_inside'>
+                    <div className='location_and_contact_inside'>
                         <address>Токтогул <br/>Бекмамат Осмонов 48</address>
                     </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
                     <div className='logo_contact'>
                         <img src={contact} alt="contact"/>
                         </div>
-                        <div className='contact_text'>
+                        <div className='location_and_contact_inside'>
                             <a href="tel:0700482721" className='contact-text-tel'>0700-482-721</a>
                             <p>Пн-Вс:8:00-24:00</p>
                         </div>

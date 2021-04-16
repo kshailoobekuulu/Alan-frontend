@@ -16,6 +16,7 @@
 }
 .logo_and_contacts_container {
     position: relative;
+    display: flex;
     width: 85%;
     margin: 28px auto;
     height: 108px;
@@ -26,9 +27,11 @@
     width: 232px;
     height: 49px;
     margin-left: 43px;
+
 }
 .location {
     display: flex;
+    flex-direction: row;
     margin-left: 235px;
     width: 242px;
     height: 41px;
@@ -36,7 +39,7 @@
     margin-bottom: 36px;
 
 }
-.location_inside {
+.location_and_contact_inside {
     font-family: Lobster;
     font-style: normal;
     font-weight: normal;
@@ -46,6 +49,11 @@
 
 }
 .logo_loc {
+    display: flex;
+    align-items: center;
+}
+.location img {
+
     width: 20px;
     height: 25px;
     margin-right: 10px;
@@ -57,30 +65,18 @@
     width: 200px;
     height: 37px;
     margin-left: 0px;
-    margin-top: 38px;
-    margin-bottom: 33px;
-
-
-}
-
-.contact_text {
-    width:  129px;
-    font-family: Lobster;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
+    margin-top: 31px;
+    margin-bottom: 36px;
 }
 .contact-text-tel {
-    font-family: Lobster;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     color: #000000;
-
-
 }
 .logo_contact {
+    display: flex;
+    align-items: center;
+
+}
+.logo_contact img {
     width: 25px;
     height: 25px;
     margin-right: 10px;
