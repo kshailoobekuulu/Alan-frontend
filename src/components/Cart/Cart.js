@@ -20,16 +20,14 @@ class Cart extends React.Component {
         this.setState({count2: this.state.count2 + 1});
     }
     decreaseCount = () => {
-        if( this.state.count > 1) {
         this.setState({count1: this.state.count1 - 1});
-        } else {
+        if(this.state.count1 < 2 ) {
             this.setState({count1: 1});
         }
     }
     decreaseCount1 = () => {
-        if( this.state.count > 1) {
-            this.setState({count2: this.state.count2 - 1});
-        } else {
+        this.setState({count2: this.state.count2 - 1});
+        if(this.state.count2< 2) {
             this.setState({count2: 1});
         }
     }
