@@ -1,0 +1,145 @@
+.cart-main {
+    height: 1045px;
+    margin: 80px 0;
+
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+
+}
+.cart-page-container {
+    padding: 150px 50px;
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #2b2c2f;
+    font-family: Lato;
+
+
+}
+.cart-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 92px;
+    text-align: start;
+}
+.cart-items {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9b9b9b;
+    font-size: 30px;
+}
+.food-name {
+    width: 614px;
+    margin-left: 10px;
+}
+.food-name p {
+    font-weight: 500;
+
+    /*font-size: 24px;*/
+    line-height: 1.5;
+
+}
+.food-name span {
+    color: #9b9b9b;
+    font-size: 16px;
+}
+.foods-image {
+    width: 124px;
+    margin-left: 10px;
+
+}
+.foods-price {
+    width: 124px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+.delete-from-cart {
+     width: 124px;
+}
+.cart-count {
+    text-align: center;
+    color: black;
+    padding-bottom: 40px;
+    width: 124px;
+    margin-left: 10px;
+}
+
+.cancel_icon {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+.cancel_button {
+    border: none;
+    background-color: white;
+
+}
+.count-icon {
+    width: 10px;
+    height: 10px;
+}
+.count-text {
+    margin-top: 7px;
+}
+.cart-footer {
+
+}
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+
+}
+.total-text {
+    color: #9b9b9b;
+    font-size: 24px;
+    margin-right: 5px;
+}
+.total-price {
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.cart-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+
+}
+.cart-button-b {
+    color: #fff;
+    background-color: #f16121;
+    border-color: #f16121;
+    border-radius: 35px;
+    width: 300px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-button-text {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 7px;
+
+}
+.cart-button-b:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+
+}
+.cart-icon {
+    width: 25px;
+    height: 25px;
+}
+.increase-decrease-button {
+    cursor: pointer;
+    border: none;
+    background: white;
+}
+

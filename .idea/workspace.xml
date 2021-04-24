@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ef2405b-576a-4ebb-b8cb-f86a5cf0c0ee" name="Default Changelist" comment="" />
+    <list default="true" id="9ef2405b-576a-4ebb-b8cb-f86a5cf0c0ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-boundry/error-boundry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicaror/error-indicator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicaror/error-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/foods-service-context/foods-service-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/foods-service-context/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hoc/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/hoc/with-foods-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Menu-Page/food-list-item/food-list-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Menu-Page/food-list-item/food-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Menu-Page/food-list/food-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Menu-Page/menu-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/food-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/shoping-cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/menu-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/foods-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Cart/Cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Banner/Banner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Banner/Banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Main-Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Main-Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/OurMenu/OurMenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/OurMenu/OurMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/OurMenu/OurMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Slider/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Welcome/Welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Welcome/Welcome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainPage/Welcome/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage/Welcome/Welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu-Page/Menu-Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Menu-Page/menu-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu-Page/Menu-Page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Menu/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,24 +71,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reducers" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/reducers" />
+      <recent name="$PROJECT_DIR$/src/components/pages/Menu-Page/food-list-item" />
+      <recent name="$PROJECT_DIR$/src/components/spinner" />
+      <recent name="$PROJECT_DIR$/src/components/error-indicaror" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Main-Page/OurMenu" />
-      <recent name="$PROJECT_DIR$/src/components/Main-Page/Slider" />
-      <recent name="$PROJECT_DIR$/src/components/Main-Page/Welcome" />
-      <recent name="$PROJECT_DIR$/src/components/Main-Page/Footer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages/Menu-Page" />
+      <recent name="$PROJECT_DIR$/src/components/pages" />
+      <recent name="$PROJECT_DIR$/src/redux" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/MainPage" />
-      <recent name="$PROJECT_DIR$/src/assets/css" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +120,12 @@
       <workItem from="1617597197648" duration="11458000" />
       <workItem from="1618036131988" duration="682000" />
       <workItem from="1618548718031" duration="3374000" />
-      <workItem from="1618758331456" duration="1419000" />
+      <workItem from="1618758331456" duration="2206000" />
+      <workItem from="1618788504781" duration="20008000" />
+      <workItem from="1618889469255" duration="16475000" />
+      <workItem from="1619048517349" duration="25942000" />
+      <workItem from="1619150165580" duration="29748000" />
+      <workItem from="1619229941057" duration="6076000" />
     </task>
     <servers />
   </component>
@@ -84,5 +143,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/reducers/reducers.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

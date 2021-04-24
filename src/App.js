@@ -1,23 +1,30 @@
 import React from "react";
 import {Route, BrowserRouter} from 'react-router-dom';
-import Header from "./components/Header/Header";
-import Menu from "./components/Menu/Menu";
+import Header from "./components/pages/Header/Header";
+import Menu from "./components/pages/Menu/Menu";
 import './App.css';
-import Footer from "./components/Footer/Footer";
-import MainPage from "./components/MainPage/Main-Page";
-import Cart from "./components/Cart/Cart";
-import MenuPage from "./components/Menu-Page/Menu-Page";
-import OurMenu from "./components/MainPage/OurMenu/OurMenu";
+import Footer from "./components/pages/Footer/Footer";
+import MainPage from "./components/pages/MainPage/Main-Page";
+import Cart from "./components/pages/Cart/Cart";
+import FoodList from "./components/pages/Menu-Page/menu-page";
+import OurMenu from "./components/pages/MainPage/OurMenu/OurMenu";
+import { withFoodsService} from './components/hoc';
 
-function App() {
+
+const App = ({foodsService}) => {
+
+    console.log(foodsService.getFoods());
+
+    // const state = props.state;
+
     return (
         <BrowserRouter>
             <div>
                 <Header/>
                 <Menu/>
                 <Route exact path='/' render = { () => <MainPage/>}/>
-                <Route exact path='/sub-menu' render = { () => <MenuPage/>}/>
-                <Route exact path='/cart' render = { () => <Cart/>}/>
+                <Route exact path='/sub-menu' render = { () => <FoodList />}/>
+                <Route exact path='/cart' render = { () => <Cart />}/>
                 <Route exact path='/menu' render={ () => <OurMenu/>}/>
                 <Footer/>
             </div>
@@ -25,4 +32,4 @@ function App() {
     );
 }
 
-export default App;
+export default withFoodsService()(App);
