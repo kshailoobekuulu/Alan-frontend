@@ -1,25 +1,37 @@
-import React from 'react';
-import Header from "./components/Main-Page/Header/Header";
-import Menu from "./components/Main-Page/Menu/Menu";
-import Banner from "./components/Main-Page/Banner/Banner";
-import './App.css';
-import Footer from "./components/Main-Page/Footer/Footer";
-import Welcome from "./components/Main-Page/Welcome/Welcome";
-import MainSlider from "./components/Main-Page/Slider/Slider";
-import OurMenu from "./components/Main-Page/OurMenu/OurMenu";
 
-function App() {
-  return (
-      <div style={{'z-index': 5}}>
-        <Header/>
-        <Menu/>
-        <Banner/>
-        <Welcome/>
-        <MainSlider/>
-        <OurMenu/>
-        <Footer/>
-      </div>
-  );
+import React from "react";
+import {Route, BrowserRouter} from 'react-router-dom';
+import Header from "./components/pages/Header/Header";
+import Menu from "./components/pages/Menu/Menu";
+
+import './App.css';
+import Footer from "./components/pages/Footer/Footer";
+import MainPage from "./components/pages/MainPage/Main-Page";
+import Cart from "./components/pages/Cart/Cart";
+import FoodList from "./components/pages/Menu-Page/menu-page";
+import OurMenu from "./components/pages/MainPage/OurMenu/OurMenu";
+import { withFoodsService} from './components/hoc';
+
+const App = ({foodsService}) => {
+
+    console.log(foodsService.getFoods());
+
+    // const state = props.state;
+
+    return (
+        <BrowserRouter>
+            <div>
+                <Header/>
+                <Menu/>
+                <Route exact path='/' render = { () => <MainPage/>}/>
+                <Route exact path='/sub-menu' render = { () => <FoodList />}/>
+                <Route exact path='/cart' render = { () => <Cart />}/>
+                <Route exact path='/menu' render={ () => <OurMenu/>}/>
+                <Footer/>
+            </div>
+        </BrowserRouter>
+    );
+
 }
 
-export default App;
+export default withFoodsService()(App);
