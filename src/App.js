@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Header from "./components/Main-Page/Header/Header";
 import Menu from "./components/Main-Page/Menu/Menu";
 import Banner from "./components/Main-Page/Banner/Banner";
@@ -10,13 +10,13 @@ import OurMenu from "./components/Main-Page/OurMenu/OurMenu";
 
 function App() {
   return (
-      <div>
+      <div style={{'z-index': 5}}>
         <Header/>
         <Menu/>
         <Banner/>
         <Welcome/>
         <MainSlider/>
-        <OurMenu/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+        <OurMenu/>
         <Footer/>
       </div>
   );

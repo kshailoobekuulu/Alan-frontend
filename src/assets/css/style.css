@@ -13,6 +13,9 @@ body, code, dl, dd, form, pre {
     margin: 0;
 
 }
+body{
+    z-index: 5;
+}
 /*a:link {*/
 /*    color: #009;*/
 /*}*/

@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9ef2405b-576a-4ebb-b8cb-f86a5cf0c0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/OurMenu/OurMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/OurMenu/OurMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Welcome/Welcome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main-Page/Welcome/Welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider-img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Banner/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Main-Page/OurMenu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -80,6 +83,10 @@
       <workItem from="1616128237213" duration="16735000" />
       <workItem from="1616245308828" duration="8476000" />
       <workItem from="1616298540981" duration="12389000" />
+      <workItem from="1616481642433" duration="4322000" />
+      <workItem from="1618227816646" duration="7360000" />
+      <workItem from="1618472216271" duration="6175000" />
+      <workItem from="1618835692044" duration="10126000" />
     </task>
     <servers />
   </component>
@@ -97,5 +104,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="114" key="FileChooserDialogImpl" timestamp="1616483008461">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="114" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616483008461" />
   </component>
 </project>
