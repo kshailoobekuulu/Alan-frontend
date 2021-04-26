@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ef2405b-576a-4ebb-b8cb-f86a5cf0c0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/slider-img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main-Page/Slider/Slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
