@@ -1,6 +1,6 @@
 
 import React from "react";
-import {Route, BrowserRouter} from 'react-router-dom';
+import {Route, BrowserRouter, Switch} from 'react-router-dom';
 import Header from "./components/pages/Header/Header";
 import Menu from "./components/pages/Menu/Menu";
 
@@ -20,15 +20,15 @@ const App = ({foodsService}) => {
 
     return (
         <BrowserRouter>
-            <div>
                 <Header/>
                 <Menu/>
-                <Route exact path='/' render = { () => <MainPage/>}/>
-                <Route exact path='/sub-menu' render = { () => <FoodList />}/>
-                <Route exact path='/cart' render = { () => <Cart />}/>
-                <Route exact path='/menu' render={ () => <OurMenu/>}/>
+                <Switch>
+                    <Route exact path='/' render = { () => <MainPage/>}/>
+                    <Route exact path='/sub-menu' render = { () => <FoodList />}/>
+                    <Route exact path='/cart' render = { () => <Cart />}/>
+                    <Route exact path='/menu' render={ () => <OurMenu/>}/>
+                </Switch>
                 <Footer/>
-            </div>
         </BrowserRouter>
     );
 

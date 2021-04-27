@@ -19,7 +19,7 @@
 }
 
 .welcome h2 {
-    font-family: Crimson Text;
+    font-family: Crimson Text, serif;
     font-style: italic;
     font-weight: 600;
     font-size: 55px;
@@ -28,7 +28,7 @@
     color: #555555;
 }
 .welcome p {
-    font-family: Crimson Text;
+    font-family: Crimson Text, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

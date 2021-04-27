@@ -25,43 +25,26 @@
 }
 .menu-list {
     z-index: -1;
-    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     margin-top: 55px;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
     gap: 40px;
 
 }
 .menu-item {
     position:relative;
-    flex-direction: column;
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     border-radius: 5px;
     margin-bottom: 20px;
 
 }
-.item1 {
-    background-image: url('../../../../assets/images/menu1.png');
+.menu-img{
+
+    width: 200px;
+    height: 200px;
 }
-.item2 {
-    background-image: url('../../../../assets/images/menu2.png');
-}
-.item3 {
-     background-image: url('../../../../assets/images/menu3.png');
- }
-.item4 {
-      background-image: url('../../../../assets/images/menu4.png');
-  }
-.item5 {
-       background-image: url('../../../../assets/images/menu5.png');
-   }
-.item6 {
-    background-image: url('../../../../assets/images/menu6.png');
-}
+
+
 .menu-item-bottom {
     position: absolute;
     background: #BFDB39;
