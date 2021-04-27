@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../assets/images/brand.svg';
+import logo from '../../../assets/images/logo_white.svg';
 import insta from "../../../assets/images/instagram.png";
 import whatsapp from "../../../assets/images/cib_whatsapp.png";
 import facebook from "../../../assets/images/facebook.png";
@@ -8,7 +8,7 @@ import phone from '../../../assets/images/phone-48.png';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' id={'footer'}>
             <div className='footer-container'>
                 <div className="footer-top">
 

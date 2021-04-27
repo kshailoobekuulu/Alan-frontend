@@ -40,13 +40,17 @@
 
 }
 .nav_item_link {
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
     text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 .nav_item_home {
     width: 52px;

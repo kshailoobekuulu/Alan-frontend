@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Lobster;
+    src: url('../../../assets/fonts/lobster-v23-latin_cyrillic-regular.ttf');
+}
+
 .header {
     /*position: absolute;*/
     display: flex;
@@ -6,6 +11,7 @@
     background: #ffffff;
     margin: 0;
     top: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 
 }
 .container-header {
@@ -40,7 +46,7 @@
 
 }
 .location_and_contact_inside {
-    font-family: Lobster;
+    font-family: Lobster, serif !important;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

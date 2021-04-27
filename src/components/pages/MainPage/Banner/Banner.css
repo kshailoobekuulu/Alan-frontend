@@ -52,6 +52,7 @@
 
 /*}*/
 .button-text {
+    outline: none;
     margin: 15px 56px;
     width: 270px;
     height: 54px;
@@ -66,9 +67,10 @@
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
-
+    transition: background-color 0.8s;
 }
+
 .button-text:hover {
-    background-color: chocolate;
+    background-color: #F16121;
     border: 2px solid white;
 }

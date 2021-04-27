@@ -1,5 +1,6 @@
 import React from 'react';
 import './Banner.css';
+import {Link as ScrollLink} from "react-scroll";
 
 const Banner = () => {
     return (
@@ -17,7 +18,12 @@ const Banner = () => {
                     Мы стараемся всегда готовить быстро и вкусно.
                         Самые лучшие суши в городе Токтогул
                 </p>
-                <button className="button-text">Заказать Онлайн</button>
+                <ScrollLink to={"our-menu"}
+                            smooth={true}
+                            duration={1000}>
+                    <button className="button-text">Заказать Онлайн</button>
+                </ScrollLink>
+
             </div>
         </div>
     )
