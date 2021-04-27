@@ -47,23 +47,31 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
     return (
         <div className='cart-main'>
             <div className='cart-page-container'>
-                <h2 className="cart-header">{numItems} товаров в вашей корзине: </h2>
-                <div className='cart-footer'>
+                {items.length === 0 ?
+                <h2 className="cart-header">Корзина пуста</h2>
+                    : <div>
+                        <h2 className="cart-header">{numItems} товаров в вашей корзине: </h2>
+                        <div className='cart-footer'>
 
-                    {
-                        items.map(renderRow)
-                    }
-                    <div className='total'>
-                        <span className='total-text'>Total:</span>
-                        <p className='total-price'>{total} сом</p>
+                            {
+                                items.map(renderRow)
+                            }
+                            <div className='total'>
+                                <span className='total-text'>Total:</span>
+                                <p className='total-price'>{total} сом</p>
+                            </div>
+                            <div className='cart-button'>
+                                <button className='cart-button-b'>
+                                    <img src={cart2} alt='cart2' className="cart-icon"/>
+                                    <span className='cart-button-text'>Proceed to checkout </span>
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
-                    <div className='cart-button'>
-                        <button className='cart-button-b'>
-                            <img src={cart2} alt='cart2' className="cart-icon"/>
-                            <span className='cart-button-text'>Proceed to checkout </span>
-                        </button>
-                    </div>
-                </div>
+                }
+
+
             </div>
         </div>
     )

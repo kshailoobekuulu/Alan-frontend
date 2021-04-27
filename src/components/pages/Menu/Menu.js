@@ -2,8 +2,9 @@ import React, {useEffect, useState} from "react";
 import './Menu.css';
 import { NavLink} from "react-router-dom";
 import cart from '../../../assets/images/cart.png';
+import {connect} from "react-redux";
 import {Link as ScrollLink} from 'react-scroll';
-const Menu = () => {
+const Menu = ({numItems}) => {
 
     return (
     <div className='menu'>
@@ -19,16 +20,20 @@ const Menu = () => {
             <li className='nav_item_about'>
                 <NavLink to="/about" className ='nav_item_link'> O нас</NavLink>
             </li>
-
         </ul>
         <div className='cart-container'>
             <NavLink to="/cart" className='cart'>
                 <img src = {cart} alt = "cart"/>
             </NavLink>
-            <span className='cart-count'>(2)</span>
-
+            <span className='cart-count'>({numItems})</span>
         </div>
     </div>
     )
 }
-export default Menu;
+
+const mapStateToProps = ( { shoppingCart: {sum}}) => {
+    return {
+        numItems: sum
+    }
+}
+export default connect(mapStateToProps)(Menu);

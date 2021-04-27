@@ -24,7 +24,7 @@ const foodAddedToCart = (foodId) => {
 }
 const foodIncreaseInCart = (foodId) => {
     return {
-        type: 'FOOD_ADDED_TO_CART',
+        type: 'FOOD_INCREASE_IN_CART',
         payload: foodId
     }
 }

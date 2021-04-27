@@ -10,7 +10,7 @@ export default class FoodsService {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(this.data)
-            }, 700 );
+            }, 200 );
         });
     }
 

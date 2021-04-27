@@ -39,9 +39,9 @@ const Header = () => {
                         </div>
                 </div>
                     <div className='social_media'>
-                        <a  href="#"> <img src={insta} alt='insta' className='inst'/></a>
-                        <a  href="#"> <img src={whatsapp} alt='whats' className=' icon '/></a>
-                        <a  href="#"><img src={facebook} alt='facebook' className='icon'/></a>
+                        <a  href="https://instagram.com/username" target = "_blank"> <img src={insta} alt='insta' className='inst'/></a>
+                        <a  href="https://www.whatsapp.com/" target = "_blank"> <img src={whatsapp} alt='whats' className=' icon '/></a>
+                        <a  href="https://facebook.com/username" target = "_blank"><img src={facebook} alt='facebook' className='icon'/></a>
 
                     </div>
                 </div>

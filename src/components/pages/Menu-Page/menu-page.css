@@ -64,5 +64,19 @@
 .add-to-cart-button {
     border: none;
     background-color: white;
+    cursor: pointer;
+    background-image: url(../../../assets/images/shopping-cart_gray.svg);
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+.add-to-cart-button:hover {
+    background-image: url(../../../assets/images/shopping-cartyellow.svg);
 
 }

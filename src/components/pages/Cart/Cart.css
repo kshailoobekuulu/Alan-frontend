@@ -131,6 +131,7 @@
 .cart-button-b:hover {
     background-color: chocolate;
     border-color: chocolate;
+    cursor: pointer;
 
 }
 .cart-icon {

@@ -13,6 +13,8 @@ const OurMenu = () => {
     return (
         <div
             className= 'our-menu' id={'our-menu'}>
+            name = "menu"
+            className= 'our-menu' >
             <div className='our-menu-container'>
                 <h2 className= 'menu-header'>Наше Меню</h2>
                 <div className='menu-list'>

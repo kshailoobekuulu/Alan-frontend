@@ -41,6 +41,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         fetchFoods: fetchFoods(foodsService, dispatch),
         onAddedToCart: (id) => dispatch(foodAddedToCart(id))
+        // onAddedToCart: (id) => console.log("added:" ,id)
     }
 
 };
