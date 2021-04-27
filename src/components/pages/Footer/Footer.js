@@ -17,9 +17,9 @@ const Footer = () => {
                     </a>
                     <div className= 'footer-item'>
                         <h2>Follow Us</h2>
-                        <a  href="#"> <img src={insta} alt='insta' className='inst foo-icon'/></a>
-                        <a  href="#"> <img src={whatsapp} alt='whats' className=' icon foo-icon '/></a>
-                        <a  href="#"><img src={facebook} alt='facebook' className='icon foo-icon'/></a>
+                        <a  href="https://instagram.com/username" target = "_blank"> <img src={insta} alt='insta' className='inst foo-icon'/></a>
+                        <a  href="https://www.whatsapp.com/" target = "_blank"> <img src={whatsapp} alt='whats' className=' icon foo-icon '/></a>
+                        <a  href="https://facebook.com/username" target = "_blank"><img src={facebook} alt='facebook' className='icon foo-icon'/></a>
                     </div>
                     <div className= 'footer-item'>
                         <h2>Contact Us</h2>
@@ -29,21 +29,7 @@ const Footer = () => {
 
 
                     </div>
-                    {/*<div className="footer-contacts-item">*/}
-                    {/*    <div className="footer-conracts-text">Phone</div>*/}
-                    {/*    <a href="tel:0700482721" className="footer-contacts-value">0700-482-721</a>*/}
-                    {/*</div>*/}
-                    {/*<div className="footer-contacts-item">*/}
-                    {/*    <div className="footer-conracts-text">Address</div>*/}
-                    {/*    <address className="footer-contacts-value">Токтогул, Бекмамат Осмонов 48</address>*/}
-                    {/*</div>*/}
-                    {/*<div className='footer-contacts-item'>*/}
-                    {/*        <a  href="#"> <img src={insta} alt='insta' className='inst'/></a>*/}
-                    {/*        <a  href="#"> <img src={whatsapp} alt='whats' className=' icon '/></a>*/}
-                    {/*        <a  href="#"><img src={facebook} alt='facebook' className='icon'/></a>*/}
 
-
-                    {/*</div>*/}
                 </div>
 
                 <div className="footer-bottom">

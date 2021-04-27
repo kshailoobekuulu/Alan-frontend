@@ -18,8 +18,8 @@ const FoodListItem = ({food, onAddedToCart}) => {
                 <button
                     onClick={onAddedToCart}
                     className="add-to-cart-button">
-                    <div className="add-to-card-icon"></div>
-                    {/*<img src={addToCard} alt="delete" className="add-to-card-icon"/>*/}
+                    <div className="add-to-card-icon">
+                    </div>
                 </button>
             </li>
         </ul>

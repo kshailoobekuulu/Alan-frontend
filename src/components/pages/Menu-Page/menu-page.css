@@ -65,7 +65,7 @@
     border: none;
     background-color: white;
     cursor: pointer;
-    background-image: url(../../../assets/images/shopping-cart-48.png);
+    background-image: url(../../../assets/images/shopping-cart_gray.svg);
     width: 45px;
     height: 45px;
     background-position: center;
@@ -77,5 +77,6 @@
 
 }
 .add-to-cart-button:hover {
-    color: #BFDB39;
+    background-image: url(../../../assets/images/shopping-cartyellow.svg);
+
 }
