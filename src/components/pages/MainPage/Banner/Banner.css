@@ -1,8 +1,6 @@
 .banner {
     position:relative;
-
     z-index: -1;
-    /*padding-top:173px;*/
     background-image: url(../../../../assets/images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -26,14 +24,12 @@
 
 
 .banner h2 {
-    /*position: absolute;*/
     font-family: Roboto Slab;
     font-weight: normal;
     font-size: 70px;
     line-height: 92px;
 }
 .banner h3 {
-    /*position: absolute;*/
     font-family: Lobster;
     font-style: normal;
     font-weight: normal;
@@ -50,10 +46,7 @@
     text-align: center;
 
 }
-/*.banner button {*/
-/*    !*position: absolute;*!*/
 
-/*}*/
 .button-text {
     margin: 15px 56px;
     width: 270px;
@@ -61,12 +54,15 @@
     background-color: #BCD339;
     border-radius: 35px;
     border-color: #BCD339;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button-text:hover {
+
     background-color: grey;
     border-color: chocolate;
+    cursor: pointer;
 }
 .button-text span {
     font-family: Roboto Slab;
@@ -74,7 +70,7 @@
     font-weight: normal;
     font-size: 22px;
     line-height: 24px;
-    text-align: center;
+    /*text-align: center;*/
     color: #FFFFFF;
 
 }

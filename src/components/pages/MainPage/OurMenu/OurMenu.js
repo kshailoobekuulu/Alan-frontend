@@ -4,6 +4,7 @@ import './OurMenu.css';
 const OurMenu = () => {
     return (
         <div
+            name = "menu"
             className= 'our-menu' >
             <div className='our-menu-container'>
                 <h2 className= 'menu-header'>Наше Меню</h2>
