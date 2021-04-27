@@ -1,8 +1,4 @@
 .banner {
-    position:relative;
-
-    z-index: -1;
-    /*padding-top:173px;*/
     background-image: url(../../../../assets/images/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +13,7 @@
 }
 .container {
     display: flex;
-    margin-top: 150px;
+    /*margin-top: 70px;*/
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -48,6 +44,7 @@
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+    width: 700px;
 
 }
 /*.banner button {*/
@@ -61,14 +58,6 @@
     background-color: #BCD339;
     border-radius: 35px;
     border-color: #BCD339;
-
-
-}
-.button-text:hover {
-    background-color: grey;
-    border-color: chocolate;
-}
-.button-text span {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
@@ -76,5 +65,10 @@
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 
+}
+.button-text:hover {
+    background-color: chocolate;
+    border: 2px solid white;
 }
