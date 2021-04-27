@@ -29,7 +29,6 @@
     line-height: 92px;
 }
 .banner h3 {
-    /*position: absolute;*/
     font-family: Lobster;
     font-style: normal;
     font-weight: normal;
@@ -37,7 +36,6 @@
     line-height: 30px;
 }
 .banner p {
-    /*position: absolute;*/
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
@@ -47,10 +45,7 @@
     width: 700px;
 
 }
-/*.banner button {*/
-/*    !*position: absolute;*!*/
 
-/*}*/
 .button-text {
     margin: 15px 56px;
     width: 270px;
@@ -64,6 +59,7 @@
     font-size: 22px;
     line-height: 24px;
     text-align: center;
+
     color: #FFFFFF;
     cursor: pointer;
 

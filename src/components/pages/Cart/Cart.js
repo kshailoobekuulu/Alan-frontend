@@ -1,7 +1,6 @@
 import React from "react";
 import './Cart.css';
 import food from '../../../assets/images/shop-cart.png';
-import food2 from '../../../assets/images/shop-cart-2.png';
 import deleteIcon from '../../../assets/images/cancel.svg';
 import add from '../../../assets/images/plus.svg';
 import minus from '../../../assets/images/remove.svg';
@@ -33,7 +32,7 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
                     <span>Fruits</span>
                     <p>{name}</p>
                 </li>
-                <li className='foods-price'>${total}</li>
+                <li className='foods-price'>{total} сом</li>
                 <li className='delete-from-cart'>
                     <button
                         className='cancel_button'
