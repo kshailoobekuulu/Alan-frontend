@@ -1,7 +1,9 @@
+
 import React from "react";
 import {Route, BrowserRouter} from 'react-router-dom';
 import Header from "./components/pages/Header/Header";
 import Menu from "./components/pages/Menu/Menu";
+
 import './App.css';
 import Footer from "./components/pages/Footer/Footer";
 import MainPage from "./components/pages/MainPage/Main-Page";
@@ -9,7 +11,6 @@ import Cart from "./components/pages/Cart/Cart";
 import FoodList from "./components/pages/Menu-Page/menu-page";
 import OurMenu from "./components/pages/MainPage/OurMenu/OurMenu";
 import { withFoodsService} from './components/hoc';
-
 
 const App = ({foodsService}) => {
 
@@ -30,6 +31,7 @@ const App = ({foodsService}) => {
             </div>
         </BrowserRouter>
     );
+
 }
 
 export default withFoodsService()(App);
