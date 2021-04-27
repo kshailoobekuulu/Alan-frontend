@@ -14,7 +14,7 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
     const renderRow = (item, idx) => {
         const {id, name, count, total} = item;
         return (
-            <ul className='cart-items'>
+            <ul key={idx} className='cart-items'>
                 <li className='cart-count'>
                     <button
                         className='increase-decrease-button'

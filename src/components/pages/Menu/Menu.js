@@ -17,6 +17,10 @@ const Menu = ({numItems}) => {
                 <NavLink to = "/sub-menu" className = 'nav_item_link'>Меню</NavLink>
             </li>
 
+            <li className='nav_item_menu'>
+                <NavLink to = "/cart" className = 'nav_item_link'>Корзина</NavLink>
+            </li>
+
             <li className='nav_item_about'>
                 <NavLink to="/about" className ='nav_item_link'> O нас</NavLink>
             </li>
@@ -25,7 +29,7 @@ const Menu = ({numItems}) => {
             <NavLink to="/cart" className='cart'>
                 <img src = {cart} alt = "cart"/>
             </NavLink>
-            <span className='cart-count'>({numItems})</span>
+            <span className='cart-count'>({numItems ? numItems : '0'})</span>
         </div>
     </div>
     )

@@ -21,6 +21,7 @@
     font-size: 36px;
     line-height: 92px;
     text-align: start;
+    color: #999999;
 }
 .cart-items {
     display: flex;
