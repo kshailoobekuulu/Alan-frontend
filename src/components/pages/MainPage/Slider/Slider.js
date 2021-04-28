@@ -45,6 +45,14 @@ const MainSlider = () => {
                     {images.map((item, id) =>
                         <div key={id} className={id === active ? "slide activeSlide" : "slide"}>
                             <img src={item} alt={item}/>
+                            <div className={"slide-text"}>
+                                <div className={"slide-header"}>
+                                    <h3>СВЕЖЕЕ МЕНЮ</h3>
+                                    <p>Бургер+салат+кола</p>
+                                </div>
+                                <button className={"slide-button"}>150 сом</button>
+                            </div>
+
                         </div>
                     )}
                 </Slider>
