@@ -1,14 +1,15 @@
 import React from "react";
-import foodImg from "../../../../assets/images/shop-cart.png";
 import addToCard from "../../../../assets/images/shopping-cart-48.png";
 import '../menu-page.css';
 
 const FoodListItem = ({food, onAddedToCart}) => {
-    const {name, price} = food;
+    const {name, price, photo} = food;
+    console.log(photo);
+
     return (
         <ul className='menu-items'>
 
-            <li className='menu-foods-image'><img src={foodImg} alt='food'/></li>
+            <li className='menu-foods-image'><img src={photo} alt='food'/></li>
             <li className='menu-foods-name'>
                 <span>Fruits</span><br/>
                 <p>{name}</p>

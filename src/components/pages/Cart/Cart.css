@@ -21,6 +21,7 @@
     font-size: 36px;
     line-height: 92px;
     text-align: start;
+    color: #999999;
 }
 .cart-items {
     display: flex;
@@ -34,8 +35,6 @@
 }
 .food-name p {
     font-weight: 500;
-
-    /*font-size: 24px;*/
     line-height: 1.5;
 
 }
@@ -75,6 +74,7 @@
 .cancel_button {
     border: none;
     background-color: white;
+    outline: none;
 
 }
 .count-icon {
@@ -142,5 +142,6 @@
     cursor: pointer;
     border: none;
     background: white;
+    outline: none;
 }
 

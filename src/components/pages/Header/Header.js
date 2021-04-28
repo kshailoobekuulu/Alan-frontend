@@ -5,13 +5,13 @@ import location from '../../../assets/images/location.png';
 import whatsapp from '../../../assets/images/cib_whatsapp.png';
 import insta from '../../../assets/images/instagram.png';
 import facebook from '../../../assets/images/facebook.png';
-
 import contact from '../../../assets/images/phone.png';
+import '../../../assets/fonts/lobster-v23-latin_cyrillic-regular.ttf'
 
 
 const Header = () => {
     return (
-        <header className='header'>
+        <header className='header' id={'header'}>
             <div className='logo_and_contacts_container container-header'>
                 <div className="logo">
                     <a href="/">
