@@ -28,18 +28,25 @@
 .menu-items {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #9b9b9b;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 20px;
     font-size: 30px;
-
+    margin-bottom: 30px;
 }
 .menu-foods-image {
     width: 130px;
+    height: 130px;
     margin-left: 10px;
 
 }
+
+.menu-foods-image img{
+    width: 130px;
+    height: 130px;
+}
 .menu-foods-name {
     width: 680px;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 .menu-foods-name p {
     font-family: Lato;
