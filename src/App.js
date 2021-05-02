@@ -11,6 +11,7 @@ import Cart from "./components/pages/Cart/Cart";
 import FoodList from "./components/pages/Menu-Page/menu-page";
 import OurMenu from "./components/pages/MainPage/OurMenu/OurMenu";
 import { withFoodsService} from './components/hoc';
+import AboutUs from "./components/pages/about_us/about_us";
 
 const App = ({foodsService}) => {
 
@@ -27,6 +28,7 @@ const App = ({foodsService}) => {
                     <Route exact path='/sub-menu' render = { () => <FoodList />}/>
                     <Route exact path='/cart' render = { () => <Cart />}/>
                     <Route exact path='/menu' render={ () => <OurMenu/>}/>
+                    <Route exact path='/about' render={ () => <AboutUs/>}/>
                 </Switch>
                 <Footer/>
         </BrowserRouter>
