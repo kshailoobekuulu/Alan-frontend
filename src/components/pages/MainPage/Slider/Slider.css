@@ -4,8 +4,9 @@
 button{
     outline: none;
 }
+
 .carousel{
-    width: 95%;
+    width: 1200px;
     /*height: 570px;*/
     margin: 50px auto 200px;
 }
