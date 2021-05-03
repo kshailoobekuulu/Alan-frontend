@@ -11,7 +11,6 @@ import ErrorIndicator from "../../error-indicaror/error-indicator";
 class MenuPage extends Component {
 
     componentDidMount() {
-        console.log("hi ",this.props.fetchFoods());
         this.props.fetchFoods();
     }
 

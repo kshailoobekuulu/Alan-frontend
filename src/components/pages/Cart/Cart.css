@@ -8,7 +8,7 @@
 
 }
 .cart-page-container {
-    padding: 150px 50px;
+    padding: 0 50px;
     max-width: 1110px;
     margin: 0 auto;
     color: #2b2c2f;
@@ -44,9 +44,10 @@
 }
 .foods-image {
     width: 124px;
-    margin-left: 10px;
+    margin: 10px;
 
 }
+
 .foods-price {
     width: 124px;
     margin-left: 10px;

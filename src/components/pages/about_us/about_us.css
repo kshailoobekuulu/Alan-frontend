@@ -1,0 +1,55 @@
+@font-face {
+    font-family: LatoBold;
+    src: url('../../../assets/fonts/Lato-Bold.ttf');
+}
+
+.about-us{
+    /*background-color: #999999;*/
+    /*height: 200px;*/
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-us__header{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    /*font-size: 28px;*/
+    /*font-weight: 600;*/
+
+    font-family: LatoBold, serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 92px;
+}
+
+.about-us__content{
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.about-us__content img{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.about-us__content p{
+    font-size: 20px;
+    font-family: Roboto, serif;
+    line-height: 20px;
+}
+
+#about-us__sub-header{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    /*line-height: 36px;*/
+    margin-bottom: 20px;
+    font-family: Lobster, serif;
+
+}

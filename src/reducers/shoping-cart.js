@@ -31,10 +31,12 @@ const updateCartItem = (food, item = {}, quantity) => {
         id = food.id,
         count =  0,
         name =  food.name,
+        photo = food.photo,
         total =  0 } = item;
     return {
         id,
         name,
+        photo,
         count: count+ quantity,
         total: total + quantity*food.price
     }
