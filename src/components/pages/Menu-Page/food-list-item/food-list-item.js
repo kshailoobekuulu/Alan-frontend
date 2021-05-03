@@ -4,7 +4,6 @@ import '../menu-page.css';
 
 const FoodListItem = ({food, onAddedToCart}) => {
     const {name, price, photo} = food;
-    console.log(photo);
 
     return (
         <ul className='menu-items'>
