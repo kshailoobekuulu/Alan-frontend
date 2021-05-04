@@ -48,10 +48,18 @@ const fetchFoods = (foodsService, dispatch) => () => {
         .catch((err) => dispatch(foodsError(err)));
 }
 
+const categoriesLoaded = (categories) => {
+    return {
+        type: 'FETCH_CATEGORIES',
+        payload: categories
+    }
+};
+
 export {
     fetchFoods,
     foodAddedToCart,
     foodDecreaseInCart,
     foodIncreaseInCart,
-    foodDeleteInCart
+    foodDeleteInCart,
+    categoriesLoaded
 };

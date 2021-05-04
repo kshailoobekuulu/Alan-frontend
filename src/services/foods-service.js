@@ -15,7 +15,7 @@ export default class FoodsService {
                 this.data = body.data;
              })
 
-        // axios.get(`http://127.0.0.1:8003/api/products`)
+        // axios.get(`http://127.0.0.1:8000/api/products`)
         //     .then(res => {
         //         this.data = res.data;
         //     })

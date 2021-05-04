@@ -4,7 +4,6 @@
 }
 
 .main-menu {
-    height: 1045px;
     margin: 80px 0;
     flex-direction: column;
     display: flex;
@@ -42,6 +41,10 @@
     outline: none;
 }
 .add-to-cart-button:hover {
+    background-image: url(../../../assets/images/shopping-cartyellow.svg);
+
+}
+.add-to-cart-button:active {
     background-image: url(../../../assets/images/shopping-cartyellow.svg);
 
 }

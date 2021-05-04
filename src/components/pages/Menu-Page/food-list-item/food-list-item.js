@@ -11,7 +11,7 @@ const FoodListItem = ({food, onAddedToCart}) => {
         <div className='cart-items'>
             <div>
                 {photo !== undefined ?
-                              <img className='foods-image' src={photo} alt='food'/> : <img src={placeholder} alt='food'/> }
+                    <img className='foods-image' src={photo} alt='food'/> : <img src={placeholder} alt='food'/>}
             </div>
 
             <div className='food-name'>
@@ -33,3 +33,5 @@ const FoodListItem = ({food, onAddedToCart}) => {
 }
 
 export default FoodListItem;
+
+

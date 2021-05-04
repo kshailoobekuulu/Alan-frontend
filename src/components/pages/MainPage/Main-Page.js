@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./Banner/Banner";
 import Welcome from "./Welcome/Welcome";
 import MainSlider from "./Slider/Slider";
-import OurMenu from "./OurMenu/OurMenu";
+import OurMenu from "./OurMenu/OurMenuApiComponent";
 
 const MainPage = () => {
     return (
