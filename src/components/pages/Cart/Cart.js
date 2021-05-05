@@ -7,6 +7,7 @@ import minus from '../../../assets/images/remove.svg';
 import cart2 from '../../../assets/images/cart-70-32.png';
 import {connect} from "react-redux";
 import {foodAddedToCart, foodDecreaseInCart, foodDeleteInCart, foodIncreaseInCart} from "../../../actions";
+import placeholder from "../../../assets/images/placeholder.jpg";
 
 
 const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
@@ -18,6 +19,7 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
                     <button
                         className='increase-decrease-button'
                         onClick={() => onIncrease(id)}>
+
                         <img src={add} className='count-icon'/>
                     </button>
                     <p className='count-text'>{count}</p>
@@ -27,7 +29,12 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
                         <img src={minus} className='count-icon'/>
                     </button>
                 </li>
-                <li ><img className='foods-image' src={photo} alt='food'/></li>
+                <li>
+                    {photo !== undefined ?
+                        <img className='foods-image' src={photo} alt='food'/> :
+                        <img className='foods-image' src={placeholder} alt='food'/>}
+                    {/*<img className='foods-image' src={photo} alt='food'/>*/}
+                </li>
                 <li className='food-name'>
                     <span>Fruits</span>
                     <p>{name}</p>

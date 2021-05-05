@@ -22,7 +22,6 @@
     font-size: 36px;
     line-height: 92px;
     text-align: start;
-<<<<<<< HEAD
 }
 .menu-items {
     display: flex;
@@ -64,10 +63,8 @@
 .menu-add-to-cart {
     width: 130px;
     margin-left: 10px;
-=======
-    color: #999999;
->>>>>>> refs/remotes/origin/master
 
+    color: #999999;
 }
 .add-to-card-icon {
     width: 45px;
