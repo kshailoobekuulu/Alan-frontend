@@ -11,7 +11,7 @@ import {foodAddedToCart, foodDecreaseInCart, foodDeleteInCart, foodIncreaseInCar
 
 const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
     const renderRow = (item, idx) => {
-        const {id, name, count, total} = item;
+        const {id, name, count, total, photo} = item;
         return (
             <ul key={idx} className='cart-items'>
                 <li className='cart-count'>
@@ -27,7 +27,7 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
                         <img src={minus} className='count-icon'/>
                     </button>
                 </li>
-                <li className='foods-image'><img src={food} alt='food'/></li>
+                <li ><img className='foods-image' src={photo} alt='food'/></li>
                 <li className='food-name'>
                     <span>Fruits</span>
                     <p>{name}</p>
@@ -96,31 +96,4 @@ const mapDispatchToProps = (dispatch) => {
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
 
-
-// state = {
-//     count: 1,
-//     count2: 1,
-//     total : 0
-// };
-// onIncreaseCount = (id) => {
-//     // this.setState({count1: this.state.count1 + 1});
-//     const action = increaseCountActionCreator(id);
-//     this.props.dispatch(action);
-//
-// }
-// OnDecreaseCount = () => {
-//     this.setState({count1: this.state.count1 - 1});
-//     if (this.state.count1 < 2) {
-//         this.setState({count1: 1});
-//     }
-// }
-// deleteProduct = (id) => {
-//     const action = removeProductActionCreator(id);
-//     this.props.dispatch(action);
-// }
-
-// calculateTotalPrice = (price) =>{
-//     this.setState({total: this.state.total + price});
-//
-// }
 

@@ -30,7 +30,7 @@ const MainSlider = () => {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerPadding: 0,
+        centerPadding: 70,
         centerMode: true,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,

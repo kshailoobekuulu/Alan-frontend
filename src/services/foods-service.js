@@ -1,4 +1,4 @@
-
+import axios from 'axios';
 export default class FoodsService {
       data =  [
         {id: 1, name: "Lagman", price: 34},
@@ -15,11 +15,18 @@ export default class FoodsService {
                 this.data = body.data;
              })
 
+        // axios.get(`http://127.0.0.1:8000/api/products`)
+        //     .then(res => {
+        //         this.data = res.data;
+        //     })
+
+
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(this.data)
             }, 200 );
         });
+        // return this.data;
 
     }
 

@@ -1,43 +1,6 @@
 let ordTotal = 0;
 let totalOrder = 0;
-
-// const addToCart = (state, foodId) => {
-//
-//     const { foodList: {foods}, shoppingCart: {cartItems}} = state;
-//
-//     const food = foods.find(food => food.id === foodId);
-//     // const item = cartItems[itemIndex];
-//     const t = 0, c = 0;
-//     const itemIndex = cartItems.findIndex(({id}) => id === foodId);
-//     console.log(itemIndex);
-//     ordTotal += t + food.price;
-//     totalOrder += c + 1;
-//
-//
-//     const newItem = {
-//         id: food.id,
-//         name: food.name,
-//         count: food.count,
-//         total: food.price};
-//
-//     if(itemIndex === -1) {
-//         return {
-//             orderTotal: ordTotal,
-//             sum: totalOrder,
-//             cartItems: [
-//                 ...cartItems,
-//                 newItem
-//             ]
-//         };
-//
-//     }
-//     else {
-//         return state;
-//
-//
-//
-//     }
-// }
+let addedToCart = false;
 
 const updateCartItems = (cartItems, item, idx) => {
     if(item.count === 0) {
@@ -69,27 +32,51 @@ const updateCartItem = (food, item = {}, quantity) => {
         id = food.id,
         count =  0,
         name =  food.name,
+        photo = food.photo,
         total =  0 } = item;
     return {
         id,
         name,
+        photo,
         count: count+ quantity,
         total: total + quantity*food.price
     }
 }
 const updateOrder = (state, foodId, quantity) => {
+
     const { foodList: {foods}, shoppingCart: {cartItems}} = state;
 
+    cartItems.map((findId) => {
+         if(findId.id === foodId) {
+             addedToCart = true;
+             console.log(foodId);
+         }
+
+    })
     const food = foods.find(food => food.id === foodId);
     const itemIndex = cartItems.findIndex(({id}) => id === foodId);
+
     const item = cartItems[itemIndex];
     const newItem = updateCartItem(food, item, quantity);
 
-    return {
-        orderTotal: ordTotal,
-        sum: totalOrder,
-        cartItems: updateCartItems(cartItems, newItem, itemIndex)
+
+
+    if(addedToCart) {
+        return {
+            orderTotal: ordTotal,
+            sum: totalOrder,
+            cartItems: [...cartItems]
+        }
+    } else {
+        return {
+            orderTotal: ordTotal,
+            sum: totalOrder,
+            cartItems: updateCartItems(cartItems, newItem, itemIndex)
+        }
+
     }
+
+
 }
 
 const updateShoppingCart = (state, action) => {
@@ -99,10 +86,6 @@ const updateShoppingCart = (state, action) => {
             orderTotal: 0
         }
     }
-
-
-
-
 
     switch (action.type) {
 

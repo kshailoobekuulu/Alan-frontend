@@ -9,7 +9,7 @@ import Footer from "./components/pages/Footer/Footer";
 import MainPage from "./components/pages/MainPage/Main-Page";
 import Cart from "./components/pages/Cart/Cart";
 import FoodList from "./components/pages/Menu-Page/menu-page";
-import OurMenu from "./components/pages/MainPage/OurMenu/OurMenu";
+import OurMenu from "./components/pages/MainPage/OurMenu/OurMenuApiComponent";
 import { withFoodsService} from './components/hoc';
 import AboutUs from "./components/pages/about_us/about_us";
 
