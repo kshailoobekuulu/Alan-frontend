@@ -9,7 +9,7 @@ const OurMenu = (props) => {
                 <div className='menu-list'>
                     {props.categories.map((category) => (
                         <a key={category.id} href={"/sub-menu"} className='menu-item'>
-                            <img className={"menu-img"} src={category.photo} alt={category.name}/>
+                            <img className={"menu-img"} src={category.category_icon} alt={category.name}/>
                             <div className='menu-item-bottom'>
                                 <h3 className='menu-item-bottom-text'>{category.name}</h3>
                             </div>
