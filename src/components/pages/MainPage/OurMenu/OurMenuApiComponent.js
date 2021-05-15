@@ -15,7 +15,7 @@ class OurMenuApiComponent extends Component {
 
     render() {
 
-        return <OurMenu categories= { this.props.categories} />
+        return <OurMenu categories= { this.props.categories } />
 
     }
 
@@ -30,7 +30,6 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(categoriesLoaded(categories))
         }
     }
-
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(OurMenuApiComponent);

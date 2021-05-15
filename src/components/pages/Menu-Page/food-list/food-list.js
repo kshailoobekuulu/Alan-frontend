@@ -11,7 +11,7 @@ const FoodList =(props) => {
                                     <li key={food.id}>
                                         <FoodListItem
                                             food={food}
-                                            onAddedToCart = {() =>onAddedToCart(food.id)}
+                                            onAddedToCart = {() => onAddedToCart(food.id)}
                                     /></li>
                                 )
                             })

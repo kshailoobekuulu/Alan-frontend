@@ -48,6 +48,13 @@ const fetchFoods = (foodsService, dispatch) => () => {
         .catch((err) => dispatch(foodsError(err)));
 }
 
+const fetchCategoryByUrl = (foodsService, dispatch) => () => {
+    dispatch(foodsRequested());
+    foodsService.getFoods()
+        .then((data) => dispatch(foodsLoaded(data)))
+        .catch((err) => dispatch(foodsError(err)));
+}
+
 const categoriesLoaded = (categories) => {
     return {
         type: 'FETCH_CATEGORIES',

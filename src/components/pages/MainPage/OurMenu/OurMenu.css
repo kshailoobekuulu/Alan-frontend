@@ -37,7 +37,8 @@
     position:relative;
     border-radius: 5px;
     margin-bottom: 20px;
-
+    width: 200px;
+    height: 220px;
 }
 .menu-img{
 
@@ -52,7 +53,8 @@
     border-radius: 0px 0px 5px 5px;
     width: 100%;
     top: 170px;
-    height: 52px;
+    /*height: 52px;*/
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
 }

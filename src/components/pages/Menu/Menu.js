@@ -13,7 +13,7 @@ const Menu = ({numItems}) => {
                 <NavLink to = "/" className ='nav_item_link' >Главная</NavLink>
             </li>
             <li className='nav_item_menu'>
-                <NavLink to = "/sub-menu" className = 'nav_item_link'>Все продукты</NavLink>
+                <NavLink to = "/products" className = 'nav_item_link'>Все продукты</NavLink>
             </li>
 
             <li className='nav_item_cart'>

@@ -1,11 +1,7 @@
 import axios from 'axios';
 export default class FoodsService {
-      data =  [
-        {id: 1, name: "Lagman", price: 34},
-        {id: 2, name: "Manti", price: 65},
-         {id: 3, name: "Ashlan-Fu", price: 110},
-         {id: 4, name: "Beshbarmak", price: 250},
-     ]
+      data = []
+
     getFoods() {
          fetch('http://127.0.0.1:8000/api/products')
              .then((res) => {
@@ -15,19 +11,11 @@ export default class FoodsService {
                 this.data = body.data;
              })
 
-        // axios.get(`http://127.0.0.1:8000/api/products`)
-        //     .then(res => {
-        //         this.data = res.data;
-        //     })
-
-
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(this.data)
             }, 200 );
         });
-        // return this.data;
-
     }
 
 }

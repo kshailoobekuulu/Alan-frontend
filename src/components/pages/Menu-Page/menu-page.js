@@ -11,10 +11,16 @@ import ErrorIndicator from "../../error-indicaror/error-indicator";
 class MenuPage extends Component {
 
     componentDidMount() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
         this.props.fetchFoods();
     }
 
     render() {
+        const path = window.location.pathname === '/products' ? '/products' : window.location.pathname.replace('/products/', '')
+        console.log(path)
         const {foods, loading, error, onAddedToCart} = this.props;
         if(loading) {
             return <Spinner/>

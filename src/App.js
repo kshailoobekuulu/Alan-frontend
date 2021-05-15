@@ -12,6 +12,8 @@ import FoodList from "./components/pages/Menu-Page/menu-page";
 import OurMenu from "./components/pages/MainPage/OurMenu/OurMenuApiComponent";
 import { withFoodsService} from './components/hoc';
 import AboutUs from "./components/pages/about_us/about_us";
+import CategoryPage from "./components/pages/category-page/categoryPageContainer";
+import CategoryPageContainer from "./components/pages/category-page/categoryPageContainer";
 
 const App = ({foodsService}) => {
 
@@ -25,7 +27,8 @@ const App = ({foodsService}) => {
                 <Menu/>
                 <Switch>
                     <Route exact path='/' render = { () => <MainPage/>}/>
-                    <Route exact path='/sub-menu' render = { () => <FoodList />}/>
+                    <Route exact path='/products' render = { () => <FoodList />}/>
+                    <Route exact path='/products/:id' render = { () => <CategoryPageContainer />}/>
                     <Route exact path='/cart' render = { () => <Cart />}/>
                     <Route exact path='/menu' render={ () => <OurMenu/>}/>
                     <Route exact path='/about' render={ () => <AboutUs/>}/>
