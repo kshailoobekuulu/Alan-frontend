@@ -2,10 +2,11 @@ import updateFoodList from "./food-list";
 import updateShoppingCart from "./shoping-cart";
 import welcomeReducer from "./welcome-reducer";
 import categoriesReducer from "./categories-reducer";
-import {getCategoryByUrlReducer} from "./categoryByUrl-reducer";
+// import {getCategoryByUrlReducer} from "./categoryByUrl-reducer";
+import getCategoryByUrlReducer from "./categoryByUrl-reducer";
 
 const reducer = (state, action) => {
-    // console.log(action.type);
+    console.log(state, action);
 
     return {
         categoryByUrl: getCategoryByUrlReducer(state, action),

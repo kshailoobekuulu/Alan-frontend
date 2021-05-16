@@ -13,18 +13,16 @@ import {fetchFoods, foodAddedToCart} from "../../../actions";
 // // import FoodList from "./food-list/food-list";
 // import ErrorIndicator from "../../error-indicaror/error-indicator";
 
-const CategoryPageContainer = (props) =>  {
+const CategoryPageContainer = () =>  {
     const dispatch = useDispatch()
     const loading = useSelector(state => state.categoryByUrl.loading)
     const error = useSelector(state => state.categoryByUrl.error)
-    const foods = useSelector(state => state.categoryByUrl.categoryProducts)
-    // const foods = useSelector(state => state.foodList.foods)
-    console.log(foods)
+    const foods = useSelector(state => state.foodList.foods)
 
     const path = window.location.pathname.replace('/products/', '')
-    console.log(path)
 
     const addToCart = (id) => {
+        console.log(id)
         dispatch(foodAddedToCart(id))
     }
     useEffect(() => {
@@ -35,14 +33,7 @@ const CategoryPageContainer = (props) =>  {
         })
 
     }, [])
-    //
-    // componentDidMount() {
 
-    //     this.props.fetchFoods();
-    // }
-
-
-        // const {foods, loading, error, onAddedToCart} = this.props;
         if(loading) {
             return <Spinner/>
         }

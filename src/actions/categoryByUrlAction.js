@@ -19,6 +19,6 @@ function getCategoryByUrlAction(url){
             )
     }
     function request(){ return {type: categoryByUrlConstants.CATEGORY_BY_URL_GET}}
-    function success(data) { return { type: categoryByUrlConstants.CATEGORY_BY_URL_SUCCESS, data } }
-    function failure(error) { return { type: categoryByUrlConstants.CATEGORY_BY_URL_FAILURE, error } }
+    function success(data) { return { type: 'FETCH_FOODS_SUCCESS', payload: data } }
+    function failure(error) { return { type: 'FETCH_FOODS_FAILURE', payload: error } }
 }

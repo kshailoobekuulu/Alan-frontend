@@ -1,22 +1,25 @@
 import { categoryByUrlConstants } from "../_constants/categoryByUrlConstants";
 
-export const initialState = {
-    categoryProducts: [],
+const initialState = {
+    foods: [],
     loading: false,
     success: false,
     error: false
 }
-export function getCategoryByUrlReducer(state = initialState, action) {
+function getCategoryByUrlReducer(state = initialState, action) {
+    console.log(state, initialState, action)
     switch (action.type) {
 
         case categoryByUrlConstants.CATEGORY_BY_URL_GET:
-            return { ...state, loading: true };
+            return { ...initialState, loading: true };
         case categoryByUrlConstants.CATEGORY_BY_URL_SUCCESS:
-            return { ...state, loading: false, success: true,
-                categoryProducts: action.data};
+            return { ...initialState, loading: false, success: true,
+                foods: action.data};
         case categoryByUrlConstants.CATEGORY_BY_URL_FAILURE:
-            return {...state, loading: false, error: true};
+            return {...initialState, loading: false, error: true};
         default:
-            return state
+            return initialState
     }
 }
+
+export default getCategoryByUrlReducer

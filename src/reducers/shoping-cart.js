@@ -24,6 +24,7 @@ const updateCartItems = (cartItems, item, idx) => {
 }
 
 const updateCartItem = (food, item = {}, quantity) => {
+    console.log(food)
     const t = 0, c = 0;
     ordTotal += t + quantity*food.price;
     totalOrder += c + quantity;
@@ -45,6 +46,7 @@ const updateCartItem = (food, item = {}, quantity) => {
 const updateOrder = (state, foodId, quantity) => {
 
     const { foodList: {foods}, shoppingCart: {cartItems}} = state;
+    console.log(foods, cartItems, state)
 
     cartItems.map((findId) => {
          if(findId.id === foodId) {
@@ -80,6 +82,7 @@ const updateOrder = (state, foodId, quantity) => {
 }
 
 const updateShoppingCart = (state, action) => {
+    console.log(state, action)
     if(state === undefined) {
         return {
             cartItems: [],
