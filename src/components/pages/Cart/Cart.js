@@ -1,16 +1,25 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import './Cart.css';
 import food from '../../../assets/images/shop-cart.png';
 import deleteIcon from '../../../assets/images/cancel.svg';
 import add from '../../../assets/images/plus.svg';
 import minus from '../../../assets/images/remove.svg';
 import cart2 from '../../../assets/images/cart-70-32.png';
-import {connect} from "react-redux";
+import {connect, useDispatch, useSelector} from "react-redux";
 import {foodAddedToCart, foodDecreaseInCart, foodDeleteInCart, foodIncreaseInCart} from "../../../actions";
 import placeholder from "../../../assets/images/placeholder.jpg";
+// import {cartAction} from "../../../actions/cartAction";
 
 
 const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
+    const [order, setOrder] = useState(false)
+    // const dispatch = useDispatch()
+    // const cartItems = useSelector(state => state.shoppingCart)
+
+    // useEffect(() => {
+    //     dispatch(cartAction.getCartAction())
+    // }, [])
+
     const renderRow = (item, idx) => {
         const {id, name, count, total, photo} = item;
         return (
@@ -69,14 +78,27 @@ const Cart = ({items, total,numItems, onIncrease, onDecrease, onDelete}) => {
                             <div className='cart-button'>
                                 <button className='cart-button-b'>
                                     <img src={cart2} alt='cart2' className="cart-icon"/>
-                                    <span className='cart-button-text'>Proceed to checkout </span>
+                                    <span onClick={() => setOrder(!order)} className='cart-button-text'>Заказать</span>
                                 </button>
                             </div>
                         </div>
-
                     </div>
                 }
 
+
+                {order ?
+                    <form className={"order"}>
+                        <div className={"order-head"}>Форма заказа</div>
+                        <input type={"address"} name={"address"} placeholder={"Адрес"}/>
+
+                        <input
+                            type={"phone"}
+                            name={"phone"}
+                            placeholder={"Номер телефона"}
+                        />
+
+                        <button type={"submit"}>Отправить</button>
+                    </form> : null}
 
             </div>
         </div>
