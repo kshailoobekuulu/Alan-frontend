@@ -46,12 +46,10 @@ const updateCartItem = (food, item = {}, quantity) => {
 const updateOrder = (state, foodId, quantity) => {
 
     const { foodList: {foods}, shoppingCart: {cartItems}} = state;
-    console.log(foods, cartItems, state)
 
     cartItems.map((findId) => {
          if(findId.id === foodId) {
              addedToCart = true;
-             console.log(foodId);
          }
 
     })
@@ -63,20 +61,12 @@ const updateOrder = (state, foodId, quantity) => {
 
 
 
-    if(addedToCart) {
-        return {
-            orderTotal: ordTotal,
-            sum: totalOrder,
-            cartItems: [...cartItems]
-        }
-    } else {
+
         return {
             orderTotal: ordTotal,
             sum: totalOrder,
             cartItems: updateCartItems(cartItems, newItem, itemIndex)
         }
-
-    }
 
 
 }
