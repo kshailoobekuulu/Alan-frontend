@@ -1,4 +1,4 @@
-import {categoryByUrl} from "../services/categoryByUrl";
+import {categoryByUrl} from "../_services/categoryByUrl";
 import {categoryByUrlConstants} from "../_constants/categoryByUrlConstants";
 
 export const categoryByUrlAction = {
